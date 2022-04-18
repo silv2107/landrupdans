@@ -1,0 +1,35 @@
+@import "./variables";
+
+.detailPhoto {
+    height: 65vh;
+    position: relative;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .wrapperButton {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+.detailsInfo {
+    background-color: $primary;
+    color: white;
+    height: 35vh;
+    padding: 20px;
+    h3{
+        font-size: $medium;
+        font-weight: normal;
+        padding-bottom: 5px;
+    }
+    p {
+        font-size: $small;
+        font-weight: normal;
+        padding-bottom: 5px;
+    }
+    
+}
+

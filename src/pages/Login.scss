@@ -1,0 +1,57 @@
+@import "./variables";
+
+.loginWrapper {
+    min-height: 100vh;
+    background-image: url("../img/bagground.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .shade {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        overflow-x: hidden;
+    }
+    .loginForm {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 0 10vw;
+        .loginTitle {
+            color: $title;
+            font-weight: normal;
+            font-size: $large;
+        }
+        .loginInput {
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+        :nth-child(3) {
+            margin-bottom: 15px;
+        }
+        .wrapperButton {
+            align-self: center;
+        }
+
+        .invalidMessage {
+            font-size: 2em;
+            color: red;
+        }
+        .chekckboxLabel {
+            color: white;
+            font-size: $medium;
+            padding-right:20px;
+        }
+        .checkbox {
+            height: 18px;
+            width: 18px;
+        }
+
+    }
+}

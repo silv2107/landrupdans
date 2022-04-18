@@ -1,0 +1,12 @@
+@import "./variables";
+
+.calenderActivity {
+    margin: 10px 30px 0 30px;
+    background-color: white;
+    color: $letter;
+    padding: 20px;
+    border-radius: 10px;
+    :first-child {
+        padding-bottom: 10px;
+    }
+}

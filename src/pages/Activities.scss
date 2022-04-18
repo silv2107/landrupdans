@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+.activityTitle {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: $title;
+    padding: 5vw;
+    font-size: $large;
+    font-weight: normal;
+}
+.mainActivities {
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;  
+    padding-top: 70px;  
+    padding-bottom: 100px;
+}

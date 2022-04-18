@@ -1,0 +1,24 @@
+@import "./variables.scss";
+.calenderWrapper {
+    background-color: $primary;
+    border: none;
+
+    .calenderTitle {
+        color: $title;
+        font-size: $large;
+        padding: 5vw;
+        font-weight: normal;
+
+    }
+}
+.mainCalender {
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    .linkActivity {
+        text-decoration: none;
+    }
+
+}
